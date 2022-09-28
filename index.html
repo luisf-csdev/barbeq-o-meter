@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>BBQ-O-Meter</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>BBQ-O-Meter</h1>
+        <section id="numbers">
+            <input class="inputs" id="adults" type="number" min="0" name="adults" placeholder="Adults">
+            <input class="inputs" id="kids" type="number" min="0" name="kids" placeholder="Kids">
+            <input class="inputs" id="duration" type="number" min="1" max="12" name="duration" placeholder="Duration(h)">
+            <button class="inputs"onclick="calculate()">Calculate</button>
+        </section>
+    <!--Fix: make impossible negative numbers-->
+        <section id="result">
+
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

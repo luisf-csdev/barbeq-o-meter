@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ background-color: rgb(121, 121, 121);}
+
+.container{
+    width: 42%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 2rem;
+    background-color: #f0b2b2;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#numbers{
+    margin: auto;
+    max-width: 40%;
+    padding-bottom: 0.5rem;
+}
+
+.inputs{ 
+    font-family: monospace;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
