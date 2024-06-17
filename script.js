@@ -10,7 +10,11 @@ let inputDuration = document.getElementById("duration");
 
 let result = document.getElementById("result");
 
-function calculate() {
+document.getElementById('calculationForm').addEventListener('submit', calculate);
+
+function calculate(event) {
+    event.preventDefault()
+    
     let adults = inputAdults.value;
     let kids = inputKids.value;
     let duration = inputDuration.value;
